@@ -8,3 +8,7 @@ class Person
       end
     end
 end
+avi_attr = {name: "Avi", birthday: 12/5/2000, eye_color: "brown"}
+avi=Person.new(avi_attr)
+puts avi.name
+puts avi.eye_color
